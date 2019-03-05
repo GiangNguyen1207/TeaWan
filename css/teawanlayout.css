@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color: #fff;}
+.container{
+	width:100%; 
+	margin-right:auto; 
+	margin-left:auto; 
+	padding-right:15px; 
+	padding-left:15px;}
+.row{margin:0 auto; width:80%;}
+.navbar-inverse{
+	min-height:80px;
+	margin-bottom:0;
+	background-color:#464646; 
+	border:none; 
+	font-family:Roboto; 
+	font-size:14px; 
+	font-weight:400; 
+	line-height:1.5;}
+.navbar-inverse .navbar-nav > li > a {
+  color: #f8f8f8;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #65b7d5;}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #65b7d5;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #333;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #65b7d5;}
+.navbar-collapse{border:none;}
+.logo{
+	width:30px; 
+	margin-top:5px;
+	margin-left:50px;}
+.navbar-nav{
+	float:right; 
+	margin-right:50px; 
+	margin-top:20px !important}
+.flag{
+	display:inline-block;
+	width:20px;
+	height:20px;}
+.navbar-inverse .navbar-toggle {
+  background-color: #65b7d5;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #65b7d5;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+  border:none;
+}
+.phan1{
+	margin-top:50px;}
+.phan2{
+	margin-top:50px;
+	text-align:center;}
+.image{
+	position:relative;}
+.title{
+	position:relative;
+	margin:0;
+	padding:0;
+	color:#65b7d5; 
+	font-family:"UTM Androgyne";
+	font-size:28px; 
+	text-align:center;}
+.intro{
+	text-align:right;  
+	padding:0; 
+	line-height:30px;
+	margin-top:30px; 
+	font-family:Roboto; 
+	font-size:14px; 
+	position:relative;
+	color:#555555;
+	text-align:center;
+	border:4px double #65b7d5;}
+.btn-info{
+	margin-top:5%;}
+.image4{
+	width:100%; 
+	margin-top:50px;}
+.image3{height:90%;}
+.img-thumbnail{width:100%; position:relative;}
+.menu{margin-top:50px;
+	position:relative;}
+.overlay{
+	 position: absolute;
+	 top: 0px;
+	 bottom: 0px;
+	 left: 0px;
+	 right: 0px;
+	 display:none;
+	 transition: .5s ease;
+	 background-color: #000;}
+.menu:hover .overlay {
+	display:block;
+	opacity: 0.8;}
+.menu:hover h2{
+	transform:translateY(-125px);
+	background-color:transparent;
+	border: solid 2px #fff;
+	color:#FFF;
+	width:60%;
+	margin-left:20%;}
+.menutext{
+	color:#f8f8f8; 
+	font-family:"UTM Androgyne"; 
+	font-size:20px;
+	text-align:center;
+	background-color:#000; 
+	opacity:0.8;
+	line-height:50px;
+	margin-top:-50px;
+	transition: transform .5s linear;}
+.Instagram{
+	color:#65b7d5; 
+	font-family:"UTM Androgyne";
+	font-size:28px; 
+	margin-top:50px;
+	margin-bottom:30px;}
+.nopadding{
+	border:2px solid #555555;
+	padding-left:0 !important; 
+	padding-right:0 !important;
+	transition:0.5s ease;}
+.nopadding > a:hover a{
+	background-color:#fff;
+	opacity:0.2;}
+nopadding1{
+	padding-left:0 !important; 
+	padding-right:0 !important;}
+.h2{color: red;
+    position: relative;
+    display: inline-block;
+    margin: 50px 100px;}
+.section-primary{background-color:#464646;color:#f8f8f8; font-family:Roboto; font-size:16px;}
+.footer {margin-top:20px;}
+.image6{width:40px; float:right;}
+.text{text-decoration:none; line-height:30px; color:#f8f8f8; font-family:Roboto; font-size:16px !important}
+.text:hover{text-decoration:none; color:#f8f8f8; font-family:Roboto; font-size:16px !important}
+.line{
+	height: 2px;
+	position:relative; 
+	text-align: center;
+	width: 9px;
+}
+.h2:before {
+	p:before {
+    content: "_____";
+    color: blue;
+    position: absolute;
+    top: -5px;
+    left: -45px;
+}
+
+.h2:after {
+    content: "_____";
+    color: blue;
+    position: absolute;
+    top: -5px;
+    right: -45px;
+}
